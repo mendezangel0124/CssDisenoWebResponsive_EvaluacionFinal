@@ -1,0 +1,51 @@
+
+*{
+  font-family: 'Dancing Script';
+}
+
+/*NAVEGACION*/
+.cabecera{
+  background-color: #5b7989;
+  text-align: left;
+  text-shadow: 2px 2px #02010a;
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 90px;
+  padding-left: 30px;
+
+}
+h1{
+  display: flex;
+}
+
+nav{
+  float: right;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding-right: 20px;
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+}
+
+nav ul li a{
+  display: block;
+  padding: 0 10px;
+  text-decoration: none;
+}
+/*NAVEGACION*/
+section{
+  background-color: #02010a;
+  height: 500px;
+}
+
+a:visited{
+  text-decoration: none;
+}
